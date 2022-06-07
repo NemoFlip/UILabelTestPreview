@@ -58,7 +58,7 @@ class UITextFieldViewController: UIViewController, UITextFieldDelegate {
         let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: 20, height: 20))
         textField.leftView = paddingView
         textField.leftViewMode = .always
-        
+        textField.clearButtonMode = .whileEditing
         textField.layer.borderWidth = 1.5
         textField.layer.borderColor = UIColor.white.cgColor
         textField.layer.masksToBounds = true
