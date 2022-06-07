@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E118BD66284F48D6006010D2 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E118BD65284F48D6006010D2 /* ModalViewController.swift */; };
 		E1DD2134284DEA0400499819 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DD2133284DEA0400499819 /* AppDelegate.swift */; };
 		E1DD2136284DEA0400499819 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DD2135284DEA0400499819 /* SceneDelegate.swift */; };
 		E1DD213B284DEA0400499819 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1DD2139284DEA0400499819 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E118BD65284F48D6006010D2 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 		E1DD2130284DEA0400499819 /* UILabelTestPreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UILabelTestPreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1DD2133284DEA0400499819 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1DD2135284DEA0400499819 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			children = (
 				E1DD2148284DEA6900499819 /* UILabelViewController.swift */,
 				E1DD214A284DEA9000499819 /* UITextFieldViewController.swift */,
+				E118BD65284F48D6006010D2 /* ModalViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1DD214B284DEA9000499819 /* UITextFieldViewController.swift in Sources */,
+				E118BD66284F48D6006010D2 /* ModalViewController.swift in Sources */,
 				E1DD2134284DEA0400499819 /* AppDelegate.swift in Sources */,
 				E1DD2136284DEA0400499819 /* SceneDelegate.swift in Sources */,
 				E1DD2149284DEA6900499819 /* UILabelViewController.swift in Sources */,

@@ -20,13 +20,13 @@ class UILabelViewController: UIViewController {
     let wordWrapLabel = UILabel()
     let pickerColors = [("White", UIColor.white), ("Black", UIColor.black), ("Blue", UIColor.blue), ("Pink", UIColor.systemPink), ("Teal", UIColor.systemTeal), ("Red", UIColor.red), ("Purple", UIColor.purple)]
     let pickerFonts = UIFont.familyNames
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(named: "Background")
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addButtonAlert))
         self.navigationItem.rightBarButtonItem?.tintColor = .white
+        self.navigationController?.navigationBar.prefersLargeTitles = true
+        self.navigationController?.navigationBar.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
         self.navigationItem.title = "UILabel"
         let tabBarItem = UITabBarItem(title: "UILabel", image: UIImage(systemName: "doc.plaintext.fill"), selectedImage: nil)
         self.tabBarController?.tabBar.tintColor = .white
